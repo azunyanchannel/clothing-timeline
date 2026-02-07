@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Timeline - A Journey Through Fashion</title>
+    <meta name="description" content="Explore the evolution of fashion trends from the 1920s to the present day.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Clothing Timeline</h1>
+            <p>A visual journey through the evolution of fashion trends and style.</p>
+            <p class="subtitle">穿越时空的风格之旅：记录服装设计与流行文化的演变。</p>
+            <button id="start-journey">Start Journey</button>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <nav class="timeline-nav" id="timeline">
+        <ul class="timeline-list">
+            <!-- Dynamically populated by JS -->
+        </ul>
+    </nav>
+
+    <main class="gallery-section">
+        <div class="era-container" id="era-content">
+            <!-- Dynamic Content -->
+            <div class="era-header">
+                <h2 id="era-title">Select an Era</h2>
+                <p id="era-description">Click on a decade above to explore its fashion.</p>
+            </div>
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Gallery Images will go here -->
+            </div>
+        </div>
+    </main>
+
+    <section class="immersive-controls">
+        <div class="audio-player">
+             <button id="music-toggle" aria-label="Toggle Music">
+                <i class="fas fa-music"></i>
+            </button>
+            <span class="music-status">Background Ambience</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Clothing Timeline Project. Created with Love.</p>
+        <div class="social-links">
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
